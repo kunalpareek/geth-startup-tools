@@ -42,6 +42,10 @@ Note : Create genesis only once for a network. Copy the genesis to all the insta
 
 `python genesis.py --chain_id "[chain id]" --prefunded_accounts "182d8bd276cca922c26f3f84a0a5d725cddbb3a3" --sealer_accounts "182d8bd276cca922c26f3f84a0a5d725cddbb3a3"`
 
+Note : For multiple prefunded or sealer accounts use comma(",") separator.
+
+Help : For genesis command line arguments help run  `python genesis.py --help`
+
 The above step creates a genesis.json file which will be used to initialize all the nodes in the network.
 
 ## Initialize the node
